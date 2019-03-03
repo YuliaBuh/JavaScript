@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+
+<body>
+    <div id="products">
+        <h1>Products</h1>
+        <ol>
+            <li name='bread', money=1>Bread
+                <br>1$
+                <br> <img src="Img/bread.png" alt="Bread">
+                <button class="button">Buy</button>
+            </li>
+            <li name='milk', money=1.5>Milk
+                <br>1,5$
+                <br> <img src="Img/milk.png" alt="Milk">
+                <button class="button">Buy</button>
+            </li>
+            <li name='cheese', money=3>Cheese
+                <br>3$
+                <br> <img src="Img/cheese.png" alt="Cheese">
+                <button class="button">Buy</button>
+            </li>
+        </ol>
+    </div>
+    <div id="basket">
+        <h2>Basket</h2>
+        <ol id="products_basket">
+        </ol>
+    </div>
+    <h2 id='totalMoney', totalMoney=0></h2>
+    <script src="script.js"></script>
+</body>
+
+</html>
